@@ -1,0 +1,15 @@
+# Salin file ini menjadi .env lalu isi sesuai sumber data kamu
+
+# URL dasar API sumber datamu (tanpa slash di akhir)
+API_BASE_URL=https://api.sumberdatamu.com
+
+# API key dari sumber data kamu (kosongkan jika tidak butuh key)
+API_KEY=isi_api_key_kamu_di_sini
+
+# Nama header yang dipakai API-mu untuk autentikasi.
+# Kalau pakai "Authorization: Bearer xxx" biarkan default ini.
+# Kalau API-mu pakai header custom, misal "x-api-key", ganti jadi: x-api-key
+API_KEY_HEADER=Authorization
+
+# Port server (opsional, default 3000)
+PORT=3000
